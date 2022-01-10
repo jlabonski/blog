@@ -1,0 +1,4 @@
+github.com/bake/solar-theme-hugo v0.0.0-20210403202535-97632b71c241 h1:G1GMUNDgYCAmNzrjkxbPxaRC40BHPNyvBWgZzygOjS8=
+github.com/bake/solar-theme-hugo v0.0.0-20210403202535-97632b71c241/go.mod h1:UBRXXb5yqUaWJkqTBjld6YKU2QTkewZx8O2zOOnx0zI=
+github.com/chipzoller/hugo-clarity v0.0.0-20211205172823-d5800ff7cb4f h1:cpFDCXUhnrPntEwC8MuEd4oW9KWLcKXahmnfdlIN9tg=
+github.com/chipzoller/hugo-clarity v0.0.0-20211205172823-d5800ff7cb4f/go.mod h1:v1JkaKdcLRibyUCalLP2CNeFo6FGzfd4ipEr4dK0+Zg=
