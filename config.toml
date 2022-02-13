@@ -1,12 +1,57 @@
-baseURL = 'http://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
-title = "Jeffrey Labonski's Web Log"
+title = "Jeffrey Labonski's Web Log of Random Musings"
+enableRobotsTXT = true
+enableInlineShortcodes = true
+
+[frontmatter]
+    lastmod = ['lastmod', ':git', ':fileModTime', ':default']
 
 [params]
-	  #scheme = "dark" # light, dark, gray or preference
-      since = "1978"
+    #scheme = "dark" # light, dark, gray or preference
+    #logo = "jeff-tiny.png"
+    introDescription = "Carbon-based bipedal ape who doesn't like liquorice"
+	# introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
+	# description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
+    since = "1978 "
+    mainSections = ["posts", "docs", "blogs"]
+    codeLineNumbers = true
+    numberOfTagsShown = 14
+    usePageBundles = true
+    figurePositionShow = true
+    figurePositionLabel = "Figure"
+    enableMathNotation = false
+    footerLogo = "headshot/jeff-small.png"
+    logo = "logos/logo.png"
+	
+    # website author
+    [params.author]
+    name = "Jeff Labonski"
+    photo = "headshot/jeff-small.png"
+
+[menus]
+    [[menus.main]]
+        name = "Home"
+        url = ""
+        weight = -110
+
+    [[menus.main]]
+        name = "About"
+        url = "about"
+        weight = -109
+
+    [[menus.social]]
+        name = "github"
+        type = "social"
+        weight = 1
+        url = "https://github.com/jlabonski"
+
+    [[menus.social]]
+        name = "rss"
+        weight = 4
+        url = "index.xml"
 
 [module]
-  [[module.imports]]
-    #path = "github.com/bake/solar-theme-hugo"
-    path = "github.com/chipzoller/hugo-clarity"
+    [[module.imports]]
+        #path = "github.com/bake/solar-theme-hugo"
+        path = "github.com/chipzoller/hugo-clarity"
