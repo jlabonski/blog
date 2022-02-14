@@ -1,0 +1,6 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = "Jeffrey Labonski's Web Log of Random Musings"
+enableRobotsTXT = true
+enableInlineShortcodes = true
+enableGitInfo = true

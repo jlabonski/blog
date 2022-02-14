@@ -1,0 +1,19 @@
+
+introDescription = "Carbon-based bipedal ape who doesn't like liquorice"
+# introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
+# description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
+since = "1978 "
+mainSections = ["posts", "docs", "blogs"]
+codeMaxLines = 100
+codeLineNumbers = true
+numberOfTagsShown = 14
+usePageBundles = true
+figurePositionShow = true
+figurePositionLabel = "Figure"
+enableMathNotation = false
+footerLogo = "headshot/jeff-small.png"
+logo = "logos/logo.png"
+
+[author]
+    name = "Jeff Labonski"
+    photo = "headshot/jeff-small.png"
