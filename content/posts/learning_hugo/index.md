@@ -130,7 +130,7 @@ which is surprising. The main body font is [Minion
 yoinked the `{woff2,woff,otf}` files from their generated CSS and transferred
 them to the theme's recommended landing spot, `_custom.sass`.
 
-```sass
+```scss
 @font-face 
     font-family: 'Minion'
     font-style: normal
@@ -150,7 +150,7 @@ them to the theme's recommended landing spot, `_custom.sass`.
 
 and then `_override.sass`
 
-```sass
+```scss
 html
     --font: "Minion", Merriweather, Georgia, "Times New Roman", serif
     font-feature-settings: "onum" on, "liga" on, "zero" on
@@ -178,7 +178,7 @@ was doing, I merely followed a bunch of recommended fonts from Adobe. I tried
 a few and settled on the light, airy lines of Forma, which is a nice contrast
 to the seriousness of Minion. `_override.sass` continues:
 
-```sass
+```scss
 $title_font: "Forma DJR Micro";
 
 .post_title

@@ -13,6 +13,7 @@ figurePositionLabel = "Figure"
 enableMathNotation = false
 footerLogo = "headshot/jeff-small.png"
 logo = "logos/logo.png"
+mobileNavigation = "right"
 
 [author]
     name = "Jeff Labonski"

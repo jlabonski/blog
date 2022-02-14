@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://jeff.labon.ski/'
 languageCode = 'en-us'
 title = "Jeffrey Labonski's Web Log of Random Musings"
 enableRobotsTXT = true
