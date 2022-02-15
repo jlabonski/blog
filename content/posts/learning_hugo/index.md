@@ -78,6 +78,9 @@ hugo v0.92.2+extended darwin/amd64 BuildDate=unknown
 Total in 282 ms
 ```
 
+![Screenshot of network load for this webpage, 324ms](load_time.png "324ms
+from a cleared cache to your screen")
+
 Everything can be found on my [github
 project](https://github.com/jlabonski/blog).
 
