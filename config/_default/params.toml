@@ -12,7 +12,7 @@ figurePositionShow = true
 figurePositionLabel = "Figure"
 enableMathNotation = false
 footerLogo = "headshot/jeff-small.png"
-logo = "logos/logo.png"
+logo = "logos/editor.gif"
 mobileNavigation = "right"
 showShare = true
 
